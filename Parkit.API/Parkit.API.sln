@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parkit.API", "Parkit.API\Parkit.API.csproj", "{585B292B-1E91-4C02-B819-A4711EADB0A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parkit.Core", "Parkit.Core\Parkit.Core.csproj", "{7856F2AB-48C8-41A8-84ED-945AD9ACD2D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parkit.API.Tests", "Parkit.API.Tests\Parkit.API.Tests.csproj", "{C70D41E1-6AE1-4903-9F01-3A922C4C4318}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{585B292B-1E91-4C02-B819-A4711EADB0A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{585B292B-1E91-4C02-B819-A4711EADB0A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{585B292B-1E91-4C02-B819-A4711EADB0A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7856F2AB-48C8-41A8-84ED-945AD9ACD2D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7856F2AB-48C8-41A8-84ED-945AD9ACD2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7856F2AB-48C8-41A8-84ED-945AD9ACD2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7856F2AB-48C8-41A8-84ED-945AD9ACD2D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C70D41E1-6AE1-4903-9F01-3A922C4C4318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C70D41E1-6AE1-4903-9F01-3A922C4C4318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C70D41E1-6AE1-4903-9F01-3A922C4C4318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C70D41E1-6AE1-4903-9F01-3A922C4C4318}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
