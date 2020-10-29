@@ -28,3 +28,29 @@ body {
 a {
   color: var(--text-colour);
 }
+
+.App {
+  width: 95vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+h1 {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  transform: translate(0, -50%);
+}
+
+.search-form {
+  padding-top: 0.75em;
+  text-align: center;
+}
+
+.search-form input {
+  border: 1px;
+  border-color: var(--primary-colour);
+  border-width: 1px;
+  width: clamp(10em, 100vw, 20em);
+  font-size: 2em;
+}

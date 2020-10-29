@@ -12,7 +12,7 @@ const PhotoCard: FC<PhotoCardProps> = ({ photo }) => {
         <div className="photo-card">
             <div className="photo-card_inner">
                 <div className="photo-card_image">
-                    <img src={photo.media.m} alt={photo.title} />
+                    <img src={photo.media.m} alt={photo.title} loading="lazy" />
                 </div>
 
                 <div className="photo-card_meta">

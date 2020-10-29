@@ -1,6 +1,6 @@
 .photo-cards {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     flex-wrap: wrap;
     padding: 0.75em;
 }
