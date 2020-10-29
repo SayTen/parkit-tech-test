@@ -1,0 +1,30 @@
+:root {
+  --background-colour: #eeeeee;
+  --text-colour: #000000;
+  --primary-colour: #000000;
+  --secondary-colour: #3f3f3f;
+  --tertiary-colour: #003f00;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-colour: #000000;
+    --text-colour: #e0e0e0;
+    --primary-colour: #c0c0c0;
+    --secondary-colour: #7f7f7f;
+    --tertiary-colour: #5f905f;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-colour);
+  color: var(--text-colour);
+}
+
+a {
+  color: var(--text-colour);
+}
